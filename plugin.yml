@@ -1,0 +1,13 @@
+name: FrostTemplate
+main: frostTemplate.FrostTemplate
+version: 1.0
+commands:
+  frosttemplate:
+    description: frosttemplate
+    usage: Use /FrostTemplate <Name>
+    permission: FrostTemplate.template
+    permission-message: FrostTemplate You don't have permission to use this command.       
+permissions:
+    FrostTemplate.template:
+        description: permission for player commands.
+        default: op
